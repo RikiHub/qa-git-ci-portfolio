@@ -30,3 +30,7 @@ incluyendo Pull Requests, documentación de pruebas y validación de cambios.
 
 ## 🚧 Estado del proyecto
 🟡 En desarrollo – orientado a práctica y portfolio QA
+
+
+## ✅ QA Notes
+This section was added to simulate a feature update and QA validation flow.
