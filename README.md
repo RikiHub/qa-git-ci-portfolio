@@ -30,3 +30,7 @@ incluyendo Pull Requests, documentación de pruebas y validación de cambios.
 
 ## 🚧 Estado del proyecto
 🟡 En desarrollo – orientado a práctica y portfolio QA
+
+## Login
+El login valida usuario y contraseña desde backend
+
