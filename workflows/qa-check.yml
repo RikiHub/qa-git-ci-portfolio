@@ -1,1 +1,15 @@
+name: QA Basic Check
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  qa-check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Mostrar mensaje QA
+        run: echo "✅ QA check ejecutado correctamente"
 
