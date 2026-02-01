@@ -43,3 +43,5 @@ El login valida usuario y contraseña desde backend
 
 ## Rama QA
 Se realizara primera prueba de GitHub Actions
+
+<!-- trigger github actions -->
