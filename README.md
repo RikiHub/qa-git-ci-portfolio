@@ -37,3 +37,7 @@ This section was added to simulate a feature update and QA validation flow.
 ## Login
 El login ahora incluye validación visual en frontend
 El login valida usuario y contraseña desde backend
+
+## 🧪 Evidencias QA
+- [Resolución de conflictos en Pull Requests](docs/conflict-resolution-qa.md)
+
