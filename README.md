@@ -34,7 +34,6 @@ incluyendo Pull Requests, documentación de pruebas y validación de cambios.
 ## ✅ QA Notes
 This section was added to simulate a feature update and QA validation flow.
 
-feature/login
 ## Login
+El login ahora incluye validación visual en frontend
 El login valida usuario y contraseña desde backend
-
