@@ -9,7 +9,11 @@ jobs:
   qa-check:
     runs-on: ubuntu-latest
 
-    steps:
-      - name: Mostrar mensaje QA
-        run: echo "✅ QA check ejecutado correctamente"
+steps:
+  - name: Paso QA exitoso
+    run: echo "Primer paso OK"
 
+  - name: Paso QA fallido intencional
+    run: |
+      echo "Simulando fallo QA"
+      exit 1
