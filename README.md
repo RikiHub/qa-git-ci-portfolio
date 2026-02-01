@@ -41,3 +41,5 @@ El login valida usuario y contraseña desde backend
 ## 🧪 Evidencias QA
 - [Resolución de conflictos en Pull Requests](docs/conflict-resolution-qa.md)
 
+## Rama QA
+S realizara primera prueba de GitHub Actions
