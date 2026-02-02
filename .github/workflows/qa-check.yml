@@ -9,12 +9,18 @@ on:
       - main
 
 jobs:
-  qa-check:
+  qa-validation:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: QA placeholder
-        run: echo "QA check ejecutado correctamente"
+      - name: Check README exists
+        run: |
+          if [ ! -f README.md ]; then
+            echo "❌ README.md no existe"
+            exit 1
+          else
+            echo "✅ README.md encontrado"
+          fi
