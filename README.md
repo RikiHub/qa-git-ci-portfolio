@@ -1,48 +1,32 @@
-# QA Portfolio – Git, GitHub & CI/CD
+# QA Automation with GitHub Actions
 
-## 📌 Descripción
-Este repositorio forma parte de mi proceso de aprendizaje como QA.
-Aquí aplico el uso de Git y GitHub como se trabaja en entornos reales,
-incluyendo Pull Requests, documentación de pruebas y validación de cambios.
+Repositorio de práctica enfocado en el uso de Git, GitHub y GitHub Actions
+desde la perspectiva de un QA Engineer.
 
-## 🎯 Objetivo del proyecto
-- Practicar el flujo de trabajo QA con Git y GitHub
-- Documentar pruebas funcionales manuales
-- Simular revisiones de Pull Requests desde el rol de QA
-- Integrar un flujo básico de CI/CD orientado a QA
+## 🎯 Objetivo
+Simular un flujo real de calidad donde:
+- QA valida reglas automáticamente
+- Los Pull Requests se bloquean si QA falla
+- Solo se integran cambios que cumplen estándares
 
-## 🧪 Alcance de pruebas
-- Pruebas funcionales manuales
-- Pruebas exploratorias
-- Validación de cambios en ramas feature
-- Revisión y aprobación de Pull Requests
+## 🧪 Validaciones implementadas
+- Verificación automática de existencia de README.md
+- Ejecución de QA Check en:
+  - Push a `main`
+  - Pull Requests hacia `main`
 
-## 🛠️ Herramientas utilizadas
+## 🔁 Flujo de trabajo
+1. Cambio en rama feature
+2. Creación de Pull Request
+3. Ejecución automática de QA
+4. Bloqueo si QA falla
+5. Merge solo con QA aprobado
+
+## 🛠️ Herramientas usadas
 - Git
 - GitHub
-- Markdown
-- (En progreso) GitHub Actions
+- GitHub Actions
+- YAML
+- CI/CD básico
 
-## 📂 Estructura del repositorio
-- `docs/` → documentación de pruebas (test plan, test cases, bug reports)
-- `manual-testing/` → notas y pruebas exploratorias
-- `.github/workflows/` → integración continua (CI)
-
-## 🚧 Estado del proyecto
-🟡 En desarrollo – orientado a práctica y portfolio QA
-
-## ✅ QA Notes
-This section was added to simulate a feature update and QA validation flow.
-
-## Login
-El login ahora incluye validación visual en frontend
-El login valida usuario y contraseña desde backend
-
-## 🧪 Evidencias QA
-- [Resolución de conflictos en Pull Requests](docs/conflict-resolution-qa.md)
-
-## Rama QA
-Se realizara primera prueba de GitHub Actions
-
-<!-- trigger github actions -->
-
+## 📁 Estructura
